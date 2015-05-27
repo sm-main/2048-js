@@ -1,0 +1,95 @@
+#wrapper
+{
+	height:650px;
+	width:650px;
+	display:flex;
+	flex-wrap:wrap;
+	background-color:red;
+	position:relative;
+	left:50px;
+	border-radius:5px;
+
+}
+.box
+{
+	height:150px;
+	width:150px;
+	background-color:rgb(205, 193, 181);
+	margin:10px 10px 0px 0px;
+	border-radius:5px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 78px;
+
+}
+#a00,#a10,#a20,#a30
+{
+	margin-left:10px;
+}
+#a31,#a32,#a33,#a30
+{
+	margin-bottom:10px;
+
+}
+body{
+	display: flex;
+	justify-content:space-around;
+}
+.two
+{
+	background-color: #fff;
+	
+}
+
+.num_0{
+	background-color:rgb(205, 193, 181)!important;
+	color:rgb(205, 193, 181)!important;
+}
+.num_2{
+	background-color: rgb(238, 228, 218)!important;
+	color:rgb(116, 101, 91)!important;
+}
+.num_4{
+	background-color: rgb(211, 173, 102)!important;
+	color:rgb(122, 111, 102)!important;
+}
+.num_8{
+	background-color: rgb(242, 177, 121);
+	color:rgb(255,255,255);
+}
+.num_16{
+	background-color: rgb(245, 149, 101);
+	color:rgb(255,255,255);
+}
+.num_32{
+	background-color: rgb(245, 124, 95);
+	color:rgb(255,255,255);
+}
+.num_64{
+	background-color: rgb(245, 92, 58);
+	color:rgb(255,255,255);
+}
+.num_128{
+	background-color: rgb(242, 216, 106);
+	color:rgb(255,255,255);
+}
+.num_256{
+	background-color: rgb(237, 203, 98);
+	color:rgb(255,255,255);
+}
+.num_512{
+	background-color: rgb(228, 192, 42);
+	color:rgb(255,255,255);
+}
+.num_1024{
+	background-color: rgb(225, 182, 28);
+	color:rgb(255,255,255);
+}
+.num_2048{
+	background-color: rgb(236, 196, 0);
+	color:rgb(255,255,255);
+}
+.num_4096{
+	background-color: rgb(236, 196, 0);
+	color:rgb(255,255,255);
+}
