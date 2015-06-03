@@ -1,7 +1,7 @@
 //Using i for rows and j for columns 
 (function(){
 	var full_matrix= new Array(4)
-	for (var i=0;i<=4;i++)
+	for (var i=0;i<4;i++)
 	{
 		full_matrix[i]=new Array(4)
 	}
